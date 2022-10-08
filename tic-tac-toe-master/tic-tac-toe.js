@@ -21,9 +21,24 @@ window.onload = function(){
                 item.classList.add("O");
                 item.textContent = "O";
                 gamePieces.push("O");
-                
+
             }
         });
+
+        item.addEventListener("mouseenter", function(){
+
+            item.classList.add("hover");
+
+        });
+
+        item.addEventListener("mouseleave", function(){
+
+            item.classList.remove("hover");
+
+        });
+
+        
+
     }
 
 }

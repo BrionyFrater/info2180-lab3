@@ -39,7 +39,6 @@ window.onload = function(){
                 
                ){
 
-                    console.log("x won");
                     document.getElementById("board").style.pointerEvents = "none";
                     document.getElementById("status").classList.add("you-won");
                     document.getElementById("status").textContent = "Congratulations! X is the Winner!";
@@ -55,7 +54,6 @@ window.onload = function(){
             
                     ){
 
-                    console.log("O won");
                     document.getElementById("board").style.pointerEvents = "none";
                     document.getElementById("status").classList.add("you-won");
                     document.getElementById("status").textContent = "Congratulations! O is the Winner!";

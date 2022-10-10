@@ -39,10 +39,6 @@ window.onload = function(){
                 
                ){
 
-<<<<<<< HEAD
-=======
-                    console.log("x won");
->>>>>>> faff4edec1a703ab9afbee93e200945588e3a3fc
                     document.getElementById("board").style.pointerEvents = "none";
                     document.getElementById("status").classList.add("you-won");
                     document.getElementById("status").textContent = "Congratulations! X is the Winner!";
@@ -58,16 +54,11 @@ window.onload = function(){
             
                     ){
 
-<<<<<<< HEAD
+
                     document.getElementById("board").style.pointerEvents = "none";
                     document.getElementById("status").classList.add("you-won");
                     document.getElementById("status").textContent = "Congratulations! O is the Winner!";
-=======
-                console.log("O won");
-                document.getElementById("board").style.pointerEvents = "none";
-                document.getElementById("status").classList.add("you-won");
-                document.getElementById("status").textContent = "Congratulations! O is the Winner!";
->>>>>>> faff4edec1a703ab9afbee93e200945588e3a3fc
+
             }
         
         });
@@ -85,7 +76,6 @@ window.onload = function(){
         });
 
     }
-<<<<<<< HEAD
 
     document.getElementsByClassName("btn")[0].addEventListener("click", function(){
         document.getElementById("status").textContent = "Move your mouse over a square and click to play an X or an O.";
@@ -103,9 +93,6 @@ window.onload = function(){
         }
 
     });
-=======
->>>>>>> faff4edec1a703ab9afbee93e200945588e3a3fc
-
 }
 
 
